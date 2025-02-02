@@ -5,9 +5,9 @@
 
 /* css vars */
 :root {
---clr-primary: #6a4225;
---clr-primary-light: #bf7b4a;
---clr-primary-3: #81664b;
+--clr-primary: #753608;
+--clr-primary-light: #e08441;
+--clr-primary-3: #b27335df;
 --clr-secondary: #B78A2A;
 --clr-grey-1: #272829;
 --clr-grey-2: #6c757d;
@@ -123,7 +123,7 @@ p{
 
 .section-title h3 {
     font-family: var(--ff-secondary);
-    color: var(--clr-primary-light);
+    color: var(--clr-black);
 }
 .section-title {
     margin-bottom: 1.4rem;
@@ -218,7 +218,7 @@ p{
 nav h4 {
     text-align: center;
     text-decoration: underline;
-    color: var(--clr-primary);
+    color: var(--clr-black);
 }
 
 .navbar {
@@ -281,7 +281,7 @@ nav h4 {
     padding-left: 2rem;
 }
 
-@media screen and (min-width: 925px) {
+@media screen and (min-width: 900px) {
     .navbar {
     max-width: 23rem;
     }
@@ -585,7 +585,7 @@ span {
     color: var(--clr-primary);
 }
 .contact-icon {
-    color: var(--clr-secondary);
+    color: var(--clr-black);
 }
 .contact-form {
     background: var(--clr-white);
